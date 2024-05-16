@@ -6,3 +6,5 @@ streamlit==1.23.1
 streamlit_chat==0.0.2.2
 langchain_community
 werkzeug
+python-dotenv
+gunicorn
