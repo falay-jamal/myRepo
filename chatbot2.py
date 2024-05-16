@@ -30,7 +30,7 @@ class Chatbot2:
         # Instantiate llm
         if engine == 'OpenAI':
             # OpenAI key setup
-            os.environ["OPENAI_API_KEY"] = ""
+            os.environ["OPENAI_API_KEY"] = "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"
             self.llm = ChatOpenAI(
                 model_name="gpt-3.5-turbo",
                 temperature=0.7
